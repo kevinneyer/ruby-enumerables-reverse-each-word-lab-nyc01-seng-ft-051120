@@ -3,6 +3,6 @@ require 'pry'
 def reverse_each_word(string)
  message = string.split
  message.each do |x|
-   x.reverse_each 
+   x.reverse
  end 
 end 

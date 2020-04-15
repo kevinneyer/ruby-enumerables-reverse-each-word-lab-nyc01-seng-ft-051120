@@ -1,9 +1,9 @@
 require 'pry'
 
 def reverse_each_word(string)
- message = string.split.map { |s| s.reverse}
+ message = string.split.map{ |s| s.reverse}
  
- empty.each do |x|
+ message.each do |x|
    x.to_s 
  end 
 end 

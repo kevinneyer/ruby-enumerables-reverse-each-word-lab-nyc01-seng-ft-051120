@@ -6,5 +6,5 @@ def reverse_each_word(string)
  message.each do |x|
    empty = x.reverse
  end 
- empty.join("") 
+ empty.to_s 
 end 

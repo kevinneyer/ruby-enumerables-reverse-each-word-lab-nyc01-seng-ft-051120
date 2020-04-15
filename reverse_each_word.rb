@@ -9,9 +9,5 @@ def reverse_each_word(string)
    try_me += x.to_s + " "
  end 
  try_me.strip 
- 
-  message.collect do |n|
-   n_to.s 
- end 
 end 
 

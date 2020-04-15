@@ -5,6 +5,7 @@ def reverse_each_word(string)
  updated = message.map{ |s| s.reverse}
  
  updated.each do |x|
-   x.to_s 
+   try_me = x.to_s 
  end 
+ try_me.join 
 end 

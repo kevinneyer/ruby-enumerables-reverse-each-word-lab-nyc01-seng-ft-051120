@@ -11,4 +11,6 @@ def reverse_each_word(string)
  try_me.strip 
 end 
 
-def reverse_each_word
+def reverse_each_word(string)
+
+end 

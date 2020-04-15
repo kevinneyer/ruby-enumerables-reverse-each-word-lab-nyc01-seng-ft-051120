@@ -7,5 +7,4 @@ def reverse_each_word(string)
  message.each do |x|
    empty += x.reverse 
  end 
- empty.to_s 
 end 

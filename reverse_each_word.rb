@@ -8,5 +8,5 @@ def reverse_each_word(string)
  message.each do |x|
    try_me += x.to_s
  end 
- try_me
+ try_me.join
 end 

@@ -1,3 +1,3 @@
 def reverse_each_word(string)
- message = string.split
+ message = string.split(",")
 end 

@@ -7,5 +7,5 @@ def reverse_each_word(string)
  updated.each do |x|
    try_me += x.to_s 
  end 
- try_me.join 
+ try_me
 end 

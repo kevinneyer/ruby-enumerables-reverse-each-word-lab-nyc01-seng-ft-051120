@@ -8,6 +8,9 @@ def reverse_each_word(string)
  message.each do |x|
    try_me += x.to_s + " "
  end 
+ message.collect do |n|
+  n.to_s
+ end
  try_me.strip 
 end 
 

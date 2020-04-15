@@ -1,7 +1,7 @@
 require 'pry'
 
 def reverse_each_word(string)
- message = string.to_a()
+ message = string.split
  #.map{ |s| s.reverse}
  
  message.each do |x|

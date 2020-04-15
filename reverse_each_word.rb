@@ -6,7 +6,7 @@ def reverse_each_word(string)
  try_me = ""
  
  message.each do |x|
-   try_me += x.to_s
+   try_me = x.to_s
  end 
  try_me
 end 

@@ -12,5 +12,11 @@ def reverse_each_word(string)
 end 
 
 def reverse_each_word(string)
-
+ message = string.split.map{ |s| s.reverse}
+ #updated = message
+ try_me = ""
+ 
+ message.collect do |n|
+   n_to.s 
+ end 
 end 
